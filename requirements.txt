@@ -1,0 +1,11 @@
+langchain_community 
+tiktoken  
+langchainhub 
+langchain 
+langgraph  
+python-dotenv
+langchain-text-splitters
+langchain_huggingface
+faiss-cpu
+ipykernel
+openai
