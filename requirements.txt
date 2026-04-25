@@ -9,3 +9,6 @@ langchain_huggingface
 faiss-cpu
 ipykernel
 openai
+scikit-learn
+sentence-transformers>=2.7.0
+torch>=2.0.0          
