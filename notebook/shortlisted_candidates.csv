@@ -1,7 +1,31 @@
 Candidate Name,Match Score,Interest Score,Final Score,Status,Explanation,Conversation Summary
-Rahul Sharma,100,20,68.0,Consider,"Matched Skills: Python, Machine Learning, SQL
-Missing Skills: 
-Candidate Interest Score: 20","Rahul Sharma expressed gratitude for the opportunity in data science but indicated he is not actively looking for new roles at this time, as he is focused on his current work."
-Priya Singh,70,30,54.0,Low Priority,"Matched Skills: Python, Machine Learning
-Missing Skills: SQL
-Candidate Interest Score: 30",Priya Singh expressed gratitude for the opportunity in data science but noted that she is not currently seeking new roles due to focus on her existing projects. She is open to staying in touch for future possibilities.
+Md. Mostafa,85,75,81.0,Consider,"Matched Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), SQL, Machine Learning, Data Science
+Missing Skills: Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 75","Md. Mostafa expressed interest in the mid role in IT Services & Consulting and is eager to learn more. However, he has concerns about lacking experience in the semiconductor industry and specific tools like Dataiku, Azure ML, or Snowflake Cortex."
+Rahul Mohalder,85,70,79.0,Consider,"Matched Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), SQL, Machine Learning, Data Science
+Missing Skills: Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 70","Rahul Mohalder expressed interest in exploring the mid role in IT Services & Consulting, while also requesting more details about the position, team, and company to assess the fit with his current role and career goals."
+Md. Minhaz Ul Karim .,60,70,64.0,Low Priority,"Matched Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), SQL, Machine Learning
+Missing Skills: Experience years (2 years required), Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 70","Md. Minhaz Ul Karim expressed interest in the mid role in IT Services & Consulting, acknowledging his skills in Python and AI. However, he raised a concern about his one year of experience potentially being less than what the role requires."
+Mohammad Hoque,50,80,62.0,Low Priority,"Matched Skills: Python, Data Science
+Missing Skills: SQL, Machine Learning, scikit-learn, pandas, PyTorch/TensorFlow, Semiconductor or manufacturing industry experience, Dataiku, Azure ML, Snowflake Cortex, knowledge graphs, AI agents, multi-agent systems
+Candidate Interest Score: 80","Mohammad Hoque expressed interest in the mid role in IT Services & Consulting and is eager to learn more about the position. However, he raised a concern about needing additional technical skills, such as SQL and machine learning, which he is currently working on."
+Kalyan Banik,50,60,54.0,Low Priority,"Matched Skills: Machine Learning, Data Science
+Missing Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), SQL, Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 60","Kalyan Banik expressed interest in learning more about the mid role in IT Services & Consulting, acknowledging the relevance of his skills, but noted that he is not actively seeking new opportunities at the moment."
+Md Shahinur Rahman,40,75,54.0,Low Priority,"Matched Skills: Machine Learning, Data Science
+Missing Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), SQL, Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 75","Md Shahinur Rahman expressed interest in the mid role in IT Services & Consulting but raised concerns about lacking proficiency in Python and SQL, which are important for the position. He requested more details about the role and potential support for skill development."
+Asif Faisal,75,0,45.0,Low Priority,"Matched Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), SQL, Machine Learning, Data Science
+Missing Skills: Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 0","The recruiter reached out to Asif Faisal regarding a mid-level role in IT Services & Consulting, highlighting his relevant skills in Python, data analysis, and machine learning. No concerns were mentioned, and the conversation suggests openness to exploring the opportunity."
+Monirul Khan,70,0,42.0,Low Priority,"Matched Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), SQL, Data Science
+Missing Skills: Machine Learning, Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 0","Monirul Khan is presented with a mid-level role in IT Services & Consulting, which aligns well with his extensive skills in data science, database management, and project management. No specific concerns were mentioned, and the agent is inquiring about his interest in the opportunity."
+Abu Jubair Nayeem,60,0,36.0,Low Priority,"Matched Skills: python, machine learning, data mining, mysql
+Missing Skills: scikit-learn, pandas, PyTorch/TensorFlow, SQL, Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 0","The recruiter reached out to Abu Jubair Nayeem regarding a mid-level IT Services & Consulting role, highlighting his relevant skills in data analysis and machine learning. The conversation does not indicate any concerns from either party."
+Md.Nur Khan,50,0,30.0,Low Priority,"Matched Skills: Python (scikit-learn, pandas, PyTorch/TensorFlow), Data Science
+Missing Skills: SQL, Machine Learning, Semiconductor or manufacturing industry experience, Hands-on with Dataiku, Azure ML, or Snowflake Cortex, Experience with knowledge graphs, AI agents, or multi-agent systems
+Candidate Interest Score: 0","The recruiter, interested in Md.Nur Khan's experience in data science, has presented a mid-level IT Services & Consulting role and is inquiring about his openness to explore the opportunity. No concerns were mentioned."

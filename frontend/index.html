@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoutMind</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <main class="shell">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">AI talent intelligence</p>
+                <h1>ScoutMind</h1>
+                <p class="subhead">Turn a job description into a ranked, outreach-aware candidate shortlist.</p>
+            </div>
+
+            <div class="status-strip" aria-label="ScoutMind metrics">
+                <div>
+                    <span id="metricCandidates">0</span>
+                    <small>Candidates</small>
+                </div>
+                <div>
+                    <span id="metricHigh">0</span>
+                    <small>High priority</small>
+                </div>
+                <div>
+                    <span id="metricSession">Ready</span>
+                    <small>Session</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="workspace">
+            <form class="panel input-panel" id="scoutForm">
+                <div class="panel-heading">
+                    <div>
+                        <p class="kicker">Job brief</p>
+                        <h2>Find the strongest matches</h2>
+                    </div>
+                    <button class="ghost-button" type="button" id="sampleButton">Sample</button>
+                </div>
+
+                <textarea id="jd" name="jd" placeholder="Paste the job description here"></textarea>
+
+                <div class="control-row">
+                    <label for="topk">Top candidates</label>
+                    <input type="number" id="topk" name="topk" value="5" min="1" max="20">
+                    <button class="primary-button" type="submit" id="runButton">
+                        <span class="button-icon">▶</span>
+                        <span>Run Scout</span>
+                    </button>
+                </div>
+            </form>
+
+            <aside class="panel process-panel">
+                <div class="panel-heading">
+                    <div>
+                        <p class="kicker">Pipeline</p>
+                        <h2>Live steps</h2>
+                    </div>
+                    <span class="run-state" id="runState">Idle</span>
+                </div>
+
+                <div class="steps" id="steps">
+                    <div class="step" data-step="jd_parser"><span>1</span><p>Parse JD</p></div>
+                    <div class="step" data-step="skill_expander"><span>2</span><p>Expand skills</p></div>
+                    <div class="step" data-step="candidate_retriever"><span>3</span><p>Retrieve talent</p></div>
+                    <div class="step" data-step="scorer"><span>4</span><p>Score fit</p></div>
+                    <div class="step" data-step="outreach"><span>5</span><p>Gauge interest</p></div>
+                    <div class="step" data-step="reranker"><span>6</span><p>Rank shortlist</p></div>
+                </div>
+            </aside>
+        </section>
+
+        <section class="results-section">
+            <div class="results-header">
+                <div>
+                    <p class="kicker">Shortlist</p>
+                    <h2>Candidate results</h2>
+                </div>
+                <a class="download-button is-disabled" id="downloadButton" href="#" aria-disabled="true">
+                    <span>↓</span>
+                    <span>Download CSV</span>
+                </a>
+            </div>
+
+            <div class="empty-state" id="emptyState">
+                <p>Results will appear here after a scout run.</p>
+            </div>
+
+            <div class="results-grid" id="results"></div>
+        </section>
+    </main>
+
+    <div class="toast hidden" id="toast"></div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

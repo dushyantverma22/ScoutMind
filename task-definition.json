@@ -1,0 +1,52 @@
+{
+  "family": "scoutmind-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "512",
+  "memory": "1024",
+  "executionRoleArn": "arn:aws:iam::404459111098:role/scoutmind-ecs-execution-role",
+  "taskRoleArn": "arn:aws:iam::404459111098:role/scoutmind-ecs-task-role",
+  "containerDefinitions": [
+    {
+      "name": "scoutmind-api",
+      "image": "404459111098.dkr.ecr.us-east-1.amazonaws.com/scoutmind-repo:latest",
+      "portMappings": [
+        {
+          "containerPort": 8000,
+          "protocol": "tcp"
+        }
+      ],
+      "secrets": [
+        {
+          "name": "OPENAI_API_KEY",
+          "valueFrom": "arn:aws:secretsmanager:us-east-1:404459111098:secret:ScoutMind/openai-api-key-ORsUlt"
+        }
+      ],
+      "environment": [
+        {
+          "name": "APP_ENV",
+          "value": "production"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/scoutmind",
+          "awslogs-region": "us-east-1",
+          "awslogs-stream-prefix": "ecs"
+        }
+      },
+      "healthCheck": {
+        "command": [
+          "CMD-SHELL",
+          "curl -f http://localhost:8000/health || exit 1"
+        ],
+        "interval": 30,
+        "timeout": 10,
+        "retries": 3,
+        "startPeriod": 20
+      },
+      "essential": true
+    }
+  ]
+}
