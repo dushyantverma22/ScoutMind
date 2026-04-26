@@ -40,7 +40,7 @@ COPY utils/ utils/
 COPY frontend/ frontend/
 
 # Config (optional)
-COPY .env .env
+
 
 # -------------------------------
 # Runtime folders
